@@ -34,6 +34,9 @@ gem 'pg'
 gem 'shopify_app'
 #Shopify
 
+gem 'activeresource', github: 'rails/activeresource'
+#Get compatibility with latest ActiveResource release (4.1), locked on Rails 4.x, and need unreleased master version
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
